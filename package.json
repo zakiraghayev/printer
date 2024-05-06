@@ -1,0 +1,17 @@
+{
+  "name": "printer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FileManager.js",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
