@@ -4,7 +4,7 @@ class WindowsPrinter {
   async print(filePath) {
     return new Promise((resolve, reject) => {
       // Directly use `print` command without specifying a printer name
-      const command = `print "${filePath}"`;
+      const command = `notepad /p  "${filePath}"`;
 
       exec(command, (error, stdout, stderr) => {
         if (error || stderr) {
